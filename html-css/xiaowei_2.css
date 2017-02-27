@@ -1,0 +1,176 @@
+/*通用样式*/
+*{ margin:0; padding: 0;}
+body{ font: 14px/24px '微软雅黑' }
+body{ background-color:#ddd; }
+.wp{ 
+	width:95%;
+	margin: 0 auto; 
+	border-bottom-style:groove;
+	border-color:#ddd;
+	border-right-style:groove;
+}
+.z{ float:left; }
+.y{ float:right; }
+.cl{ clear: both; }
+img{ border: none; }
+h4{ color:#444; margin-left:110px;}
+
+h6{ color:#ddd; }
+/*header*/
+.header{
+	background-color:#444;
+	height:60px;
+}
+.logo{
+	margin-left:40px;
+	margin-bottom:10px;
+	height:60px;
+	width:130px;
+}
+.logo img{
+	height:60px;
+}
+.daohang{
+	
+	width:500px;
+	height:60px;
+}
+.daohang ul{
+	height:60px;
+}
+.daohang li{
+	bottom:20px;
+	list-style:none;
+	display:inline;
+	line-height:60px;
+	padding:20px;
+}
+.daohang a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.daohang a:hover{
+	color:#aaa;
+}
+/*one*/
+.one{
+	background-color:white;
+	height:900px;
+	margin-top:30px;
+}
+.wz{
+	line-height:30px;
+	padding:30px 30px 20px 50px;
+}
+p{
+	text-indent:40px;
+}
+/*two*/
+.two{
+	background-color:white;
+	height:810px;
+	margin-top:30px;
+}
+.two li{
+	list-style:none;
+	padding-left:30px;
+}
+/*images*/
+.images{
+	background-color:white;
+	height:2020px;
+	margin-top:30px;
+}
+.img li{
+	list-style:none;
+	border:solid 1px #ddd;
+	width:190px;
+	height:290px;
+	margin: 30px 0 10px 50px;
+}
+.img li img{
+	height:250px;
+	width:180px;
+	padding:0 10px 10px 5px;
+}
+/*table*/
+.table{
+	background-color:white;
+	height:420px;
+	margin-top:30px;
+}
+.tab{
+	padding:30px 30px 20px 50px;
+}
+.tab li{
+	margin:5px 0 0 40px;
+	list-style:decimal;
+	padding:0;
+	height:30px;
+	
+}
+.tab table{
+	width:95%;
+	border-left:solid 1px #666;
+	border-top:solid 1px #666;
+}
+.first{
+	color:white;
+}
+.tab td{
+	border-bottom:solid 1px #666;
+	border-right:solid 1px #666;
+}
+/*login*/
+.login{
+	background-color:white;
+	height:600px;
+	margin-top:30px;
+}
+.form1{
+	margin:20px 0 5px 400px;
+}
+.email{
+	height:20px;
+	width:100px;
+}
+.pass .pass2{
+	height:20px;
+	width:100px;
+}
+.pass {
+	margin-left:29px;
+}
+.other{
+	margin-left:70px;
+	height:20px;
+	width:300px;
+}
+.other2{
+	margin-left:40px;
+	height:20px;
+	width:300px;
+}
+.butt{
+	border-style:none;
+	cursor:pointer;
+	height:50px;
+	background-color:#5599ff;
+	color:white;
+	font-size:25px;
+}
+
+/*footer*/
+.footer{
+	background-color:black;
+	height:80px;
+	margin-top:30px;
+}
+.foot{
+	width:300px;
+	height:50px;
+	color:white;
+	margin: 0 auto;
+	padding-top:20px;
+}
